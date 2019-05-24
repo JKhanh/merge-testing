@@ -5,8 +5,14 @@ public class Main {
     {
         System.out.println("Ten toi la: " + name);
     }
+  
+    public static void printAge(int age)
+    {
+        System.out.println("Tuoi toi la: " + age);
+    }
 
     public static void main(String[] args) {
-        printName("Nguyen Quoc Khanh");
+        printName("Nguyen Quoc Khanh"); 
+        printAge("21");
     }
 }
